@@ -6,7 +6,11 @@ namespace Aula25Fibonacci
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Recursividade rec = new Recursividade();
+            rec.GerarSequenciaFibonacci(0, 1, 10);
+
+            System.Console.WriteLine("\n"+rec.GerarFatorial(5));
+
         }
     }
 }
